@@ -179,7 +179,7 @@ class _loginPageState extends State<loginPage> {
                   filled: true,
                   hintStyle: new TextStyle(
                       color: Colors.grey[600], fontWeight: FontWeight.bold),
-                  hintText: "Email Address",
+                  hintText: "Customer ID",
                   fillColor: Colors.white70),
             ),
             SizedBox(
