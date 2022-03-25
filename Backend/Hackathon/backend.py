@@ -11,7 +11,8 @@ api = Api(app)
 
 def get_customer_loans(customer_id):
     customer_loan = requests.get('https://firestore.googleapis.com/v1/projects/tt4-18/databases/(default)/documents/CustomerLoan/' + customer_id).content
-    print(customer_loan['fields'][1])
+    data = json.loads(customer_loan.decode('utf-8'))
+    print(data['fields']['loan_id'])
     return customer_loan
 
 # def get_data():
