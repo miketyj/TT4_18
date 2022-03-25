@@ -8,6 +8,7 @@ const Color loginCardFormColor = Color.fromARGB(255, 234, 234, 234);
 
 const Color loginButtonColor = topBarColorCustomer;
 
+const Color payOff= customerPayColor;
 var topBarColor = Color.fromARGB(255, 52, 65, 157);
 
 const topBarColorCustomer = Color.fromARGB(255, 52, 65, 157);
@@ -18,3 +19,5 @@ const Color toggleTrackColor = Color.fromARGB(255, 142, 186, 187);
 const Color toggleColor = Color.fromARGB(255, 11, 87, 88);
 
 const Color buttonGreen = Color.fromARGB(255, 31, 114, 38);
+
+const customerPayColor = Colors.red;
